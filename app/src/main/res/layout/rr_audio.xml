@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/rr_recorded_audio"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <GridLayout
+        android:id="@+id/reporting_audio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_column="3"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/audioPlayButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:onClick="onRRAudioPlayButtonClicked"
+            android:fontFamily="@font/fa_solid"
+            android:text="@string/play_circle"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/audioName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/songTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initialTime" />
+
+            <View
+                android:id="@+id/divider4"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/audioDeleteButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_gravity="end"
+            android:fontFamily="@font/fa_solid"
+            android:onClick="onRemoveRRAudioClicked"
+            android:text="@string/times_circle"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="20sp" />
+
+    </GridLayout>
+
+</androidx.cardview.widget.CardView>

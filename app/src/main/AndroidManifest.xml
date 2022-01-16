@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.torodesigns.rrpress">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReportMissingItemActivity"></activity>
+        <activity
+            android:name=".RRItemDetailActivity"
+            android:label="RR Item" />
+        <activity
+            android:name=".CommentsWithRepliesActivity"
+            android:label="Comments" />
+        <activity
+            android:name=".CartoonaWithCommentsActivity"
+            android:label="Cartoona Comments" />
+
+        <service
+            android:name=".AudioPlayerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name=".TellTheNewsActivity"
+            android:configChanges="orientation"
+            android:label="Tell The News"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NewsDetailActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.torodesigns.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

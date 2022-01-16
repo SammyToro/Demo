@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Envoy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="topstories_tab">TopStories</string>
+    <string name="cartoona_tab">Cartoona</string>
+    <string name="rr_tab">RR</string>
+    <string name="videos_tab">Videos</string>
+
+    <string name="username">Sammy Toro</string>
+    <string name="email">sammytee@gmail.com</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_entertainment">Entertainment</string>
+    <string name="nav_business">Business</string>
+    <string name="nav_sports">Sports</string>
+    <string name="nav_politics">Politics</string>
+    <string name="nav_science">Science</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_tech">Tech</string>
+    <string name="nav_africa">Africa</string>
+    <string name="nav_europe">Europe</string>
+    <string name="nav_australia">Australia and Oceania</string>
+    <string name="nav_north_america">North America</string>
+    <string name="nav_south_america">South America</string>
+    <string name="nav_asia">Asia</string>
+    <string name="nav_middle_east">Middle East</string>
+
+    <string name="nav_open_drawer">Open Navigation Drawer</string>
+    <string name="nav_close_drawer">Close Navigation Drawer</string>
+
+    <string name="news_headline">She sells sea shells at the sea shore</string>
+    <string name="news_caption">Envoy App Soon to To Be Released</string>
+    <string name="news_details">
+        List views are able to do this because they inherit a bunch of functionality
+        from a deep hierarchy of superclasses. Recycler views, however, don’t
+        have such a rich set of built-in methods, as they don’t inherit from the
+        same superclasses. Here’s a class hierarchy diagram for the ListView
+        and RecyclerView classes
+    </string>
+    <string name="author">Author</string>
+    <string name="author_name">Sammy Tee</string>
+    <string name="related_news">Related News</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="initialTime">0:00</string>
+    <string name="listen">Listening ...</string>
+    <string name="replyButtonText">Reply</string>
+    <string name="showReply">Show previous replies</string>
+    <string name="reporterHeading">Reporter\'s Details</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="itemName">Item Name</string>
+    <string name="image_option">Select one of the following</string>
+
+    <!--    FONT AWESOME FONTS-->
+    <string name="clock">\uf017</string>
+    <string name="folder_open">\uf07c</string>
+    <string name="thumbs_up">\uf164</string>
+    <string name="eye">\uf06e</string>
+    <string name="user_circle">\uf2bd</string>
+    <string name="mobile_alt">\uf3cd</string>
+    <string name="camera">\uf030</string>
+    <string name="microphone">\uf130</string>
+    <string name="video">\uf03d</string>
+    <string name="map_marker_alt">\uf3c5</string>
+    <string name="photo_video">\uf87c</string>
+    <string name="paper_plane">\uf1d8</string>
+    <string name="times">\uf00d</string>
+    <string name="times_circle">\uf057</string>
+    <string name="check_circle">\uf058</string>
+    <string name="pause_circle">\uf28b</string>
+    <string name="play_circle">\uf144</string>
+    <string name="heart">\uf004</string>
+    <string name="comments">\uf086</string>
+    <string name="share_alt">\uf1e0</string>
+    <string name="images">\uf302</string>
+
+
+    <!--    HINTS-->
+    <string name="hint_name">Name</string>
+    <string name="hint_phoneNumber">Phone Number</string>
+    <string name="hint_newsDetails">Whats happening now ?</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_country_code">233</string>
+    <string name="prefix">+</string>
+    <string name="hint_comment">Leave your reply</string>
+    <string name="hint_moreItems">People also viewed</string>
+    <string name="hint_rrDetails">Retrieved item description and place found</string>
+
+    <string-array name="category">
+        <item>Entertainment</item>
+        <item>Business</item>
+        <item>Sports</item>
+        <item>Politics</item>
+        <item>Science</item>
+        <item>Health</item>
+        <item>Tech</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

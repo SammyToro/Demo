@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:checked="true" />
+        <item
+            android:id="@+id/nav_entertainment"
+            android:title="@string/nav_entertainment" />
+        <item
+            android:id="@+id/nav_business"
+            android:title="@string/nav_business" />
+        <item
+            android:id="@+id/nav_sports"
+            android:title="@string/nav_sports" />
+        <item
+            android:id="@+id/nav_politics"
+            android:title="@string/nav_politics" />
+        <item
+            android:id="@+id/nav_science"
+            android:title="@string/nav_science" />
+        <item
+            android:id="@+id/nav_health"
+            android:title="@string/nav_health" />
+        <item
+            android:id="@+id/nav_tech"
+            android:title="@string/nav_tech" />
+        <item android:title="Continetal News" >
+            <menu >
+                <item
+                    android:id="@+id/nav_africa"
+                    android:title="@string/nav_africa" />
+                <item
+                    android:id="@+id/nav_europe"
+                    android:title="@string/nav_europe" />
+                <item
+                    android:id="@+id/nav_australia"
+                    android:title="@string/nav_australia" />
+                <item
+                    android:id="@+id/nav_north_america"
+                    android:title="@string/nav_north_america" />
+                <item
+                    android:id="@+id/nav_south_america"
+                    android:title="@string/nav_south_america" />
+                <item
+                    android:id="@+id/nav_middle_east"
+                    android:title="@string/nav_middle_east" />
+                <item
+                    android:id="@+id/nav_asia"
+                    android:title="@string/nav_asia" />
+            </menu>
+        </item>
+    </group>
+</menu>
